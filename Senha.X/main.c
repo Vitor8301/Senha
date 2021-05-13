@@ -48,7 +48,7 @@ void main(void)
                         estado = 20;
                     break;
             case 10:
-                    dispLCD(0,0,"Aguarde...    ");
+                    dispLCD(0,0,"   R$ 600,00    ");
                     dispLCD(1,0,"                ");
                     if( tecla == '*')
                         estado = 1;
@@ -74,7 +74,7 @@ void main(void)
                         estado = 1;
                     break;
             case 26:
-                    dispLCD(0,0,"    Se f#deu    ");
+                    dispLCD(0,0,"Senha Errada Man");
                     dispLCD(1,0,"                ");
                     if( tecla == '*')
                         estado = 1;
